@@ -2,10 +2,88 @@
 <html lang="es-ES">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>bootstrap</title>
 </head>
 <body>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab perferendis quasi itaque at libero animi repudiandae dolore in, odit ipsa, mollitia quaerat pariatur nisi autem, asperiores doloribus cum facilis exercitationem.</p>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white px-sm-5" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-sm-5" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-sm-5" href="#">Acerca de</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<div class="container-fluid mt5 w-100">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.png" alt="sukuna" class="w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2.png" alt="cirno" class="w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img3.png" alt="tsukumo" class="w-100">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+    </div>
+    <div class="row">
+    <div id="section" class="col-md-8 bg-primary">
+<h1>escaldar</h1>
+<p>ataque pokemon muy poderoso de tipo agua que puede quemar y ademas hace daño,
+  muy usado en el competitivo y una de las mejores opciones al elegir un ataque de tipo agua.</p>
+
+    </div>
+    <div id="aside" class="col-md-4 bg-warning pt-5">
+      <a href="#">enlace1</a>
+      <a href="#">enlace2</a>
+      <a href="#">enlace3</a>
+      <a href="#">enlace4</a>
+    </div></div>
+    <div id="fooder" class="container-fluid bg-dark text-white text-center pt-3 pb-2">
+      <p>Super copyrygth su, maravilloso exalted heart</p>
+    </div>
+      
+
+    
 </body>
 </html>
